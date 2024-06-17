@@ -28,6 +28,20 @@ let x6 = 0
 
 let section = document.getElementById('perguntas')
 
+//Mobile
+let largura = 0
+let altura = 0
+
+function alertarCelular(){
+    largura = window.innerWidth
+    altura = window.innerHeight
+    
+    if(largura < 576){
+        alert('Não terminei de desenvolver este site para celulares, então para ter experiência melhor ligue a opção: Para computador. Obrigado!!')
+    }
+}
+//Fim Mobile
+
 
 function mudarIcon_1() {
     
