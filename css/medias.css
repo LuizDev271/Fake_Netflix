@@ -1,0 +1,101 @@
+@media (max-width: 575.98px){
+    body{
+        background-size: cover;
+    }
+
+    header > nav > img{
+        width: 110px;
+    }
+
+    #home{
+        margin-bottom: 230px;
+        height: 500px;
+    }
+
+    #Tv{
+        height: 650px;
+    }
+
+    #dispositivos{
+        height: 650px;
+    }
+
+    #infatil{
+        height: 720px;
+    }
+
+    section#perguntas{
+        height: 1020px;
+    }
+
+    #p_home{
+        font-size: 18px; margin-bottom: 20px;
+    }
+    
+    #p2_home{
+        font-size: 18px;
+    }
+
+    a#email, a#email_final{
+        width: 140px;
+        height: 48px;
+        margin-left: 5px;
+        margin-top: 20px;
+        padding: 7px 12px 0 15px;
+        font-size: 1.2em;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    .p-perguntas{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    .final_perguntas{
+        font-size: 18px;
+    }
+
+    #icon_1{
+        padding-left: 205px;
+    }
+    
+    #icon_2{
+        padding-left: 160px;
+    }
+    
+    #icon_3{
+        padding-left: 185px;
+    }
+    
+    #icon_4{
+        padding-left: 142px;
+    }
+    
+    #icon_5{
+        padding-left: 75px;
+    }
+    
+    #icon_6{
+        padding-left: 63px;
+    }
+
+    .caixa-perguntas{
+        width: 396px;
+        margin: auto;
+    }
+
+    .p-perguntas{
+        padding-top: 10px;
+    }
+
+    .caixas-finais{
+        width: 220px;
+    }
+
+    #select-final{
+        width: 118px;
+    }
+}

@@ -31,9 +31,10 @@
 
     <!-- Style Regular CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/medias.css">
     
   </head>
-  <body onload="alertarCelular()">
+  <body onload="//alertarCelular()">
 
     <header>
       <nav class="navbar"> <!--NAV-->
@@ -56,10 +57,10 @@
         <div class="row">
           <div id="capa" class="col-md-12">
             <h1>Filmes, séries e muito mais, sem limites</h1>
-            <p style="font-size: 25px; margin-bottom: 20px;">Assista onde quiser. Cancele quando quiser.</p>
-            <p style="font-size: 21px;">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+            <p id="p_home">Assista onde quiser. Cancele quando quiser.</p>
+            <p id="p2_home">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
 
-            <input id="input_email" class="form-control d-inline col-4" placeholder="Email" type="email" id="">
+            <input id="input_email" class="form-control d-sm-inline col-sm-4" placeholder="Email" type="email">
             <a id="email" class="btn btn-danger" href="#">
               Vamos lá
               <i style="margin-left: 10px;" class="fa-solid fa-angle-right"></i>
@@ -232,7 +233,7 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="caixas-finais col-md-3">
             <ul class="navbar-nav">
               <li>Perguntas frequentes</li>
               <li>Relações com investidores</li>
@@ -241,7 +242,7 @@
               <li>Só na Netflix</li>
             </ul>
           </div>
-          <div class="col-md-3">
+          <div class="caixas-finais col-md-3">
             <ul class="navbar-nav">
               <li>Central de Ajuda</li>
               <li>Carreiras</li>
@@ -249,7 +250,7 @@
               <li>Entre em contato</li>
             </ul>
           </div>
-          <div class="col-md-3">
+          <div class="caixas-finais col-md-3">
             <ul class="navbar-nav">
               <li>Conta</li>
               <li>Resgatar cartão pré-pago</li>
@@ -257,7 +258,7 @@
               <li>Teste de velocidade</li>
             </ul>
           </div>
-          <div class="col-md-3">
+          <div class="caixas-finais col-md-3">
             <ul class="navbar-nav">
               <li>Media Center</li>
               <li>Comprar cartão pré-pago</li>
@@ -270,7 +271,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-2 mt-4">
-            <select data-uia="language-picker" class="form-control text-white">
+            <select id="select-final" data-uia="language-picker" class="form-control text-white">
               <option value="">Português</option>
               <option value="">English</option>
             </select>

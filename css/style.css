@@ -127,6 +127,14 @@ a#email, a#email_final{
     margin-bottom: 50px;
 }
 
+#p_home{
+    font-size: 25px; margin-bottom: 20px;
+}
+
+#p2_home{
+    font-size: 21px;
+}
+
 /*Perguntas
 ------------------*/
 section#perguntas{
