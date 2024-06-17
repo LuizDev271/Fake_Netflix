@@ -24,6 +24,14 @@ body{
     color: white;
 }
 
+#Tv{
+    background-image: linear-gradient(to top, black 90%, #ffffff00);
+}
+
+#dispositivos, #infatil, #perguntas, #final{
+    background-color: black;
+}
+
 /*Formatações Gerais
 ---------------------*/
 h1{
@@ -56,6 +64,10 @@ section{
 
 /*Classes
 ---------------------*/
+.caixa-inicio{
+    margin-top: 50px;
+}
+
 .caixa-perguntas{
     background-color: #302f2f;
     height: 80px;
