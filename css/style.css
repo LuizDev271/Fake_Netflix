@@ -13,7 +13,9 @@ body, html{
 
 body{
     background-color: black;
-    background-image: url(../img/fundo_topo_camada.png), url(../img/fundo_topo.jpg);
+    background-image: url(../img/fundo_topo_camada_2.png),
+                      url(../img/fundo_topo_camada.png),
+                      url(../img/fundo_topo.jpg);
     background-position: left top;
     background-repeat: no-repeat;
     background-attachment: scroll;
