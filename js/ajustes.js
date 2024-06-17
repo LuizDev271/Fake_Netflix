@@ -112,7 +112,7 @@ function mudarIcon_6() {
 
 
 function respostaAparecer_1(){
-    if(altura > 576){
+    if(largura > 576){
         if(x1 == 0){
             x1 = 1
     
@@ -158,7 +158,7 @@ function respostaAparecer_1(){
 
 function respostaAparecer_2(){
     
-    if(altura > 576){
+    if(largura > 576){
         if(x2 == 0){
             x2 = 1
 
@@ -201,7 +201,7 @@ function respostaAparecer_2(){
 
 function respostaAparecer_3(){
     
-    if(altura > 576){
+    if(largura > 576){
         if(x3 == 0){
             x3 = 1
 
@@ -244,7 +244,7 @@ function respostaAparecer_3(){
 
 function respostaAparecer_4(){
     
-    if(altura > 576){
+    if(largura > 576){
         if(x4 == 0){
             x4 = 1
 
@@ -287,7 +287,7 @@ function respostaAparecer_4(){
 
 function respostaAparecer_5(){
     
-    if(altura > 576){
+    if(largura > 576){
         if(x5 == 0){
             x5 = 1
 
@@ -330,7 +330,7 @@ function respostaAparecer_5(){
 
 function respostaAparecer_6(){
     
-    if(altura > 576){
+    if(largura > 576){
         if(x6 == 0){
             x6 = 1
 
