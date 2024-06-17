@@ -28,6 +28,11 @@
         height: 1020px;
     }
 
+    section#final{
+        height: 555px;
+        border-bottom: none;
+    }
+
     #p_home{
         font-size: 18px; margin-bottom: 20px;
     }
@@ -91,11 +96,19 @@
         padding-top: 10px;
     }
 
-    .caixas-finais{
-        width: 220px;
-    }
-
     #select-final{
         width: 118px;
+    }
+
+    .caixa-1, .caixa-3 {
+        width: 200px;
+    }
+
+    .caixa-2{
+        width: 200px;
+    }
+
+    .caixa-4{
+        width: 200px;
     }
 }

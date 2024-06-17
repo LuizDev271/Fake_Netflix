@@ -219,6 +219,11 @@ section#perguntas{
 
 /*Rodapé
 ----------------*/
+section#final{
+    height: 400px;
+    border-bottom: none;
+}
+
 #caixa_final{
     margin: 70px 0 5px 0;
 }
