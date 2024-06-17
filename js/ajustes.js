@@ -112,135 +112,228 @@ function mudarIcon_6() {
 
 
 function respostaAparecer_1(){
-
-    if(x1 == 0){
-        x1 = 1
-
-        resposta_1.style.display = 'block'
-
-        caixa_1.style.marginBottom = '235px'
-
-        section.style.height = '1180px'
-        
+    if(altura > 576){
+        if(x1 == 0){
+            x1 = 1
+    
+            resposta_1.style.display = 'block'
+    
+            caixa_1.style.marginBottom = '235px'
+    
+            section.style.height = '1180px'
+            
+        } else {
+            x1 = 0
+    
+            resposta_1.style.display = 'none'
+            
+            caixa_1.style.marginBottom = '0px'
+    
+            section.style.height = '970px'
+    
+        }
     } else {
-        x1 = 0
-
-        resposta_1.style.display = 'none'
-        
-        caixa_1.style.marginBottom = '0px'
-
-        section.style.height = '970px'
-
+        if(x1 == 0){
+            x1 = 1
+    
+            resposta_1.style.display = 'block'
+    
+            caixa_1.style.marginBottom = '325px'
+    
+            section.style.height = '1180px'
+            
+        } else {
+            x1 = 0
+    
+            resposta_1.style.display = 'none'
+            
+            caixa_1.style.marginBottom = '0px'
+    
+            section.style.height = '1020px'
+    
+        }
     }
+    
 }
 
 function respostaAparecer_2(){
+    
+    if(altura > 576){
+        if(x2 == 0){
+            x2 = 1
 
-    if(x2 == 0){
-        x2 = 1
+            resposta_2.style.display = 'block'
 
-        resposta_2.style.display = 'block'
+            caixa_2.style.marginBottom = '125px'
 
-        caixa_2.style.marginBottom = '125px'
+            section.style.height = '1060px'
+            
+        } else {
+            x2 = 0
 
-        section.style.height = '1060px'
-        
+            resposta_2.style.display = 'none'
+            
+            caixa_2.style.marginBottom = '0px'
+
+            section.style.height = '970px'
+        }
     } else {
-        x2 = 0
+        if(x2 == 0){
+            x2 = 1
 
-        resposta_2.style.display = 'none'
-        
-        caixa_2.style.marginBottom = '0px'
+            resposta_2.style.display = 'block'
 
-        section.style.height = '970px'
+            caixa_2.style.marginBottom = '180px'
+
+            section.style.height = '1060px'
+            
+        } else {
+            x2 = 0
+
+            resposta_2.style.display = 'none'
+            
+            caixa_2.style.marginBottom = '0px'
+
+            section.style.height = '1020px'
+        }
     }
 }
 
 function respostaAparecer_3(){
+    
+    if(altura > 576){
+        if(x3 == 0){
+            x3 = 1
 
-    if(x3 == 0){
-        x3 = 1
+            resposta_3.style.display = 'block'
 
-        resposta_3.style.display = 'block'
+            caixa_3.style.marginBottom = '305px'
 
-        caixa_3.style.marginBottom = '305px'
+            section.style.height = '1240px'
+            
+        } else {
+            x3 = 0
 
-        section.style.height = '1240px'
-        
+            resposta_3.style.display = 'none'
+            
+            caixa_3.style.marginBottom = '0px'
+
+            section.style.height = '970px'
+        }
     } else {
-        x3 = 0
+        if(x3 == 0){
+            x3 = 1
 
-        resposta_3.style.display = 'none'
-        
-        caixa_3.style.marginBottom = '0px'
+            resposta_3.style.display = 'block'
 
-        section.style.height = '970px'
+            caixa_3.style.marginBottom = '430px'
+
+            section.style.height = '1240px'
+            
+        } else {
+            x3 = 0
+
+            resposta_3.style.display = 'none'
+            
+            caixa_3.style.marginBottom = '0px'
+
+            section.style.height = '1020px'
+        }
     }
 }
 
 function respostaAparecer_4(){
+    
+    if(altura > 576){
+        if(x4 == 0){
+            x4 = 1
 
-    if(x4 == 0){
-        x4 = 1
+            resposta_4.style.display = 'block'
 
-        resposta_4.style.display = 'block'
+            caixa_4.style.marginBottom = '165px'
 
-        caixa_4.style.marginBottom = '165px'
+            section.style.height = '1100px'
+            
+        } else {
+            x4 = 0
 
-        section.style.height = '1100px'
-        
+            resposta_4.style.display = 'none'
+            
+            caixa_4.style.marginBottom = '0px'
+
+            section.style.height = '970px'
+        }
     } else {
-        x4 = 0
+        if(x4 == 0){
+            x4 = 1
 
-        resposta_4.style.display = 'none'
-        
-        caixa_4.style.marginBottom = '0px'
+            resposta_4.style.display = 'block'
 
-        section.style.height = '970px'
+            caixa_4.style.marginBottom = '210px'
+
+            section.style.height = '1100px'
+            
+        } else {
+            x4 = 0
+
+            resposta_4.style.display = 'none'
+            
+            caixa_4.style.marginBottom = '0px'
+
+            section.style.height = '1020px'
+        }
     }
 }
 
 function respostaAparecer_5(){
+    
+    if(altura > 576){
+        if(x5 == 0){
+            x5 = 1
 
-    if(x5 == 0){
-        x5 = 1
+            resposta_5.style.display = 'block'
 
-        resposta_5.style.display = 'block'
+            caixa_5.style.marginBottom = '125px'
 
-        caixa_5.style.marginBottom = '125px'
+            section.style.height = '1070px'
+            
+        } else {
+            x5 = 0
 
-        section.style.height = '1070px'
-        
+            resposta_5.style.display = 'none'
+            
+            caixa_5.style.marginBottom = '0px'
+
+            section.style.height = '970px'
+        }
     } else {
-        x5 = 0
 
-        resposta_5.style.display = 'none'
-        
-        caixa_5.style.marginBottom = '0px'
-
-        section.style.height = '970px'
     }
 }
 
 function respostaAparecer_6(){
+    
+    if(altura > 576){
+        if(x6 == 0){
+            x6 = 1
 
-    if(x6 == 0){
-        x6 = 1
+            resposta_6.style.display = 'block'
 
-        resposta_6.style.display = 'block'
+            caixa_6.style.marginBottom = '235px'
 
-        caixa_6.style.marginBottom = '235px'
+            section.style.height = '1200px'
+            
+        } else {
+            x6 = 0
 
-        section.style.height = '1200px'
-        
+            resposta_6.style.display = 'none'
+            
+            caixa_6.style.marginBottom = '0px'
+
+            section.style.height = '970px'
+        }
     } else {
-        x6 = 0
 
-        resposta_6.style.display = 'none'
-        
-        caixa_6.style.marginBottom = '0px'
-
-        section.style.height = '970px'
     }
 }
 
