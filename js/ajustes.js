@@ -140,7 +140,7 @@ function respostaAparecer_1(){
     
             caixa_1.style.marginBottom = '325px'
     
-            section.style.height = '1180px'
+            section.style.height = '1320px'
             
         } else {
             x1 = 0
@@ -185,7 +185,7 @@ function respostaAparecer_2(){
 
             caixa_2.style.marginBottom = '180px'
 
-            section.style.height = '1060px'
+            section.style.height = '1170px'
             
         } else {
             x2 = 0
@@ -228,7 +228,7 @@ function respostaAparecer_3(){
 
             caixa_3.style.marginBottom = '430px'
 
-            section.style.height = '1240px'
+            section.style.height = '1420px'
             
         } else {
             x3 = 0
@@ -271,7 +271,7 @@ function respostaAparecer_4(){
 
             caixa_4.style.marginBottom = '210px'
 
-            section.style.height = '1100px'
+            section.style.height = '1200px'
             
         } else {
             x4 = 0
@@ -307,7 +307,24 @@ function respostaAparecer_5(){
             section.style.height = '970px'
         }
     } else {
+        if(x5 == 0){
+            x5 = 1
 
+            resposta_5.style.display = 'block'
+
+            caixa_5.style.marginBottom = '155px'
+
+            section.style.height = '1170px'
+            
+        } else {
+            x5 = 0
+
+            resposta_5.style.display = 'none'
+            
+            caixa_5.style.marginBottom = '0px'
+
+            section.style.height = '1020px'
+        }
     }
 }
 
@@ -333,7 +350,24 @@ function respostaAparecer_6(){
             section.style.height = '970px'
         }
     } else {
+        if(x6 == 0){
+            x6 = 1
 
+            resposta_6.style.display = 'block'
+
+            caixa_6.style.marginBottom = '350px'
+
+            section.style.height = '1360px'
+            
+        } else {
+            x6 = 0
+
+            resposta_6.style.display = 'none'
+            
+            caixa_6.style.marginBottom = '0px'
+
+             section.style.height = '1020px'
+        }
     }
 }
 
