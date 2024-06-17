@@ -116,3 +116,81 @@
         font-size: 18px;
     }
 }
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    #icon_1{
+        padding-left: 230px;
+    }
+    
+    #icon_2{
+        padding-left: 155px;
+    }
+    
+    #icon_3{
+        padding-left: 200px;
+    }
+    
+    #icon_4{
+        padding-left: 130px;
+    }
+    
+    #icon_5{
+        padding-left: 20px;
+    }
+    
+    #icon_6{
+        padding-left: 3px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    #icon_1{
+        padding-left: 415px;
+    }
+    
+    #icon_2{
+        padding-left: 340px;
+    }
+    
+    #icon_3{
+        padding-left: 385px;
+    }
+    
+    #icon_4{
+        padding-left: 315px;
+    }
+    
+    #icon_5{
+        padding-left: 200px;
+    }
+    
+    #icon_6{
+        padding-left: 180px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #icon_1{
+        padding-left: 635px;
+    }
+    
+    #icon_2{
+        padding-left: 560px;
+    }
+    
+    #icon_3{
+        padding-left: 605px;
+    }
+    
+    #icon_4{
+        padding-left: 535px;
+    }
+    
+    #icon_5{
+        padding-left: 425px;
+    }
+    
+    #icon_6{
+        padding-left: 410px;
+    }
+}
